@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-container {
+  display: flex;
+  height: 100vh; /* Ajusta la altura a la pantalla */
+}
+
+.user-list {
+  width: 25%; /* o el tamaño que prefieras para la lista de usuarios */
+  border-right: 2px solid #ddd; /* Añade una línea divisoria */
+  overflow-y: auto; /* Permite desplazamiento si la lista es muy larga */
+}
+
+.chat-area {
+  width: 75%; /* o el tamaño restante para el área de chat */
+  display: flex;
+  flex-direction: column;
+}
